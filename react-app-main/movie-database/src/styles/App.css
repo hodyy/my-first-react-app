@@ -1,0 +1,101 @@
+body{
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+#background{
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: auto;
+}
+
+p{
+    margin: 0px;
+    font-family: "Roboto", "Arial", sans-serif;
+    font-size: small;
+    color: #aaa
+}
+
+h1{
+    font-family: "Roboto", "Arial", sans-serif;
+}
+label{
+    font-family: "Roboto", "Arial", sans-serif;
+    font-size: small;
+}
+
+#background.dark{
+    background-color: black;
+}
+
+.dark :is(h1, label){
+    color: white;
+}
+
+.dark .settings-option{
+    border-bottom: solid white;
+}
+
+#background.light{
+    background-color: white;
+}
+
+.light :is(h1, label){
+    color: black;
+}
+
+.light :is(input, select){
+    background-color: white;
+    color: black;
+    border-color: grey;
+}
+
+.light .settings-option{
+    border-bottom: solid black;
+}
+
+.light .one-api-movie{
+    background-color: white;
+    color: black;
+}
+
+.light .one-api-movie:hover{
+    background-color: #C7C7C7;
+    color: black;
+}
+
+
+.light .current-page{
+    background-color: white;
+}
+
+.light :is(#btn){
+    background-color: black;
+    color: white
+}
+
+.light .menu-button{
+    background-color: white;
+    color: black
+}
+
+.light .menu-button:hover{
+    background-color: #C7C7C7;
+    color: black
+}
+
+.light .menu-button.active{
+    background-color: black;
+    color: white
+}
+
+.light .menu-button.active:hover{
+    background-color: #40403F;
+    color: white
+}
+
+
+

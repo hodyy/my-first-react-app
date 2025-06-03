@@ -1,0 +1,20 @@
+.selector-wrapper{
+    margin: 5px 10px 5px 5px;
+    width: 120px
+}
+label.year{
+    margin-right: 20px;
+}
+
+label.country{
+    margin-right: 10px;
+}
+
+select{
+    width: 60px;
+    padding: 3px;
+    border-radius: 15px;
+    background-color: black;
+    border: solid #343933;
+    color: white;
+}

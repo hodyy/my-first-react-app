@@ -1,0 +1,56 @@
+.filter{
+   width: 150px ;
+   height: 120px;
+   margin: auto;
+   padding-top: 5px;
+   padding-bottom: 5px;
+   transition: all 0.3s linear ;
+   overflow: hidden;
+}
+
+.filter-button{
+   background-color: #343933;
+   border-radius: 10px;
+   border: none;
+   box-shadow: 0px;
+   width: 80px;
+   height: 20px;
+   margin-top: 5px;
+   margin-left: 10px;
+   transition-duration: 0.3s;
+}
+
+.filter-button:hover{
+   transform: scale(1.04);
+   box-shadow: 3px 3px 3px  #321d2f;
+   color: white;
+}
+
+.filter-button-wrapper{
+   width: 300px;
+}
+
+.display-filter-btn{
+   width: 100px;
+   margin-top: 10px;
+}
+
+.hide{
+  height: 0px;
+  overflow: hidden;
+}
+
+.show-filter-button{
+   width: 100px;
+   margin-top: 15px;
+}
+
+.selectors-section{
+   width: 100px;
+   height: 110px;
+   margin: auto;
+}
+
+label{
+   color: white
+}

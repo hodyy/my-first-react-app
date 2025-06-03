@@ -1,0 +1,25 @@
+.searcher-section{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-top: 20px;
+}
+
+.name-input{
+   width: 200px;
+   margin: auto;
+   border-radius: 40px;
+   padding: 15px;
+   background-color: black;
+   border: solid #343933;
+   color: white;
+}
+
+.search-button{
+   width: 80px;
+   margin: 5px auto;
+}
+
+#loader{
+   height: 100vh;
+}
